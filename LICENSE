@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2026 Voice-Authenticated Folder Lock System
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Third-Party Licenses:
+
+1. SpeechBrain (Apache License 2.0)
+   - ECAPA-TDNN model: speechbrain/spkrec-ecapa-voxceleb
+   - https://github.com/speechbrain/speechbrain
+
+2. PyTorch (BSD License)
+   - https://github.com/pytorch/pytorch
+
+3. Cryptography (Apache License 2.0 / BSD License)
+   - https://github.com/pyca/cryptography
+
+4. VoxCeleb Dataset (Research License)
+   - For research and educational purposes
+   - http://www.robots.ox.ac.uk/~vgg/data/voxceleb/
+
+DISCLAIMER:
+This software uses pre-trained models and is provided for educational and 
+demonstration purposes. While it employs state-of-the-art technology, no 
+security system is 100% foolproof. Users should employ this system as part 
+of a comprehensive security strategy and maintain proper backups of important 
+data. The authors are not responsible for any data loss or security breaches.

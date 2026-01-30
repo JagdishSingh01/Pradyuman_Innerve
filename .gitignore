@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Voice Profiles (user data)
+voice_profiles/
+!voice_profiles/.gitkeep
+
+# Encryption Keys (sensitive)
+keys/
+*.key
+*.bin
+
+# Configuration Files (may contain sensitive data)
+folder_lock_config.json
+custom_config.json
+test_config.json
+
+# Logs
+logs/
+*.log
+voice_folder_lock.log
+
+# Pre-trained Models (large files)
+pretrained_models/
+*.pt
+*.pth
+*.ckpt
+
+# Audio Files
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Test Files
+example_folder/
+demo_secure_folder/
+secure_folder/
+batch_folder_*/
+test_folder/
+to_lock/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Encrypted Files
+*.encrypted
+
+# Backup Files
+*.bak
+*.backup

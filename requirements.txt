@@ -1,0 +1,25 @@
+# Voice-Authenticated Folder Locking System
+# Requirements
+
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+speechbrain>=0.5.16
+
+# Audio processing
+sounddevice>=0.4.6
+soundfile>=0.12.1
+librosa>=0.10.0
+
+# Encryption
+cryptography>=41.0.0
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Compatibility pin for SpeechBrain fetching
+huggingface_hub==0.20.3
+
+# Optional but recommended
+pyaudio>=0.2.13  # Alternative audio backend
